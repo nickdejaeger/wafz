@@ -54,7 +54,8 @@ a:active {
 }
 
 .container > header span {
-	font-weight: 700;
+	font-family: 'Architects Daughter';
+	font-weight: 100;
 }
 
 .container > header h2 {
