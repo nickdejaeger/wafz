@@ -1,8 +1,14 @@
-<!DOCTYPE html>
+<?php
+	session_start();
+
+	// DB connection
+	$link = mysqli_connect("tramalant.be.mysql","tramalant_be","Y3TS6Nda","tramalant_be") or die("Error " . mysqli_error($link));
+
+?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--><html lang="en" class="no-js"><!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
