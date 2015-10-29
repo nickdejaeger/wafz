@@ -2,7 +2,7 @@
 	session_start();
 
 	// DB connection
-	$link = mysqli_connect("tramalant.be.mysql","tramalant_be","Y3TS6Nda","tramalant_be") or die("Error " . mysqli_error($link));
+	
 
 ?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
